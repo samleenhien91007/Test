@@ -9,7 +9,7 @@ class RandomVideoPlayer:
         self.root = root
         self.root.title("Máy Kiểm Tra Độ Đẹp Gái")
         
-        self.label = tk.Label(root, text="Máy Kiểm Tra Độ Đẹp Gái", font=("Helvetica", 16))
+        self.label = tk.Label(root, text=u"Máy Kiểm Tra Độ Đẹp Gái", font=("Helvetica", 16))    
         self.label.pack(pady=20)
         
         self.test_button = tk.Button(root, text="Test", command=self.play_random_video)
